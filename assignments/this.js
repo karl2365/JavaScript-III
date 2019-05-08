@@ -28,7 +28,7 @@ const myObj = {
 // code example for New Binding
 function Coder(name){
     this.name = name;
-    function getName (){
+    this.getName = function  (){
         console.log(this.name);
     }
 }
